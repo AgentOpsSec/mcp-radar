@@ -12,7 +12,7 @@
     "url": "https://github.com/AgentOpsSec/mcp-radar/issues"
   },
   "bin": {
-    "mcp-radar": "./bin/mcp-radar.js"
+    "mcp-radar": "bin/mcp-radar.js"
   },
   "files": [
     "LICENSE",
