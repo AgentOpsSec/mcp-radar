@@ -1,0 +1,47 @@
+{
+  "name": "@agentopssec/mcp-radar",
+  "version": "1.0.0",
+  "description": "Trust scores for MCP servers.",
+  "type": "module",
+  "homepage": "https://AgentOpsSec.com/projects/mcp-radar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentOpsSec/mcp-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentOpsSec/mcp-radar/issues"
+  },
+  "bin": {
+    "mcp-radar": "./bin/mcp-radar.js"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "src",
+    "data",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/mcp-radar.js && node --test"
+  },
+  "keywords": [
+    "mcp",
+    "registry",
+    "trust",
+    "security",
+    "score"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Aunt Gladys Nephew",
+    "url": "https://auntgladysnephew.com"
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "modelcontextprotocol/server-github",
+    "name": "Official GitHub MCP Server",
+    "repository": "modelcontextprotocol/server-github",
+    "package": "@modelcontextprotocol/server-github",
+    "license": "MIT",
+    "categories": ["github"],
+    "permissions": ["github.read", "github.write"],
+    "maintenance": {
+      "activity": "high",
+      "releaseAgeDays": 14,
+      "stars": 1200
+    },
+    "install": {
+      "method": "npx",
+      "pinned": false
+    },
+    "docs": {
+      "quality": "high",
+      "schema": "high"
+    }
+  },
+  {
+    "id": "modelcontextprotocol/server-filesystem",
+    "name": "Official Filesystem MCP Server",
+    "repository": "modelcontextprotocol/server-filesystem",
+    "package": "@modelcontextprotocol/server-filesystem",
+    "license": "MIT",
+    "categories": ["filesystem"],
+    "permissions": ["filesystem.read", "filesystem.write"],
+    "maintenance": {
+      "activity": "high",
+      "releaseAgeDays": 10,
+      "stars": 1100
+    },
+    "install": {
+      "method": "npx",
+      "pinned": false
+    },
+    "docs": {
+      "quality": "high",
+      "schema": "high"
+    }
+  },
+  {
+    "id": "random/database-mcp",
+    "name": "Random Database MCP Server",
+    "repository": "random/database-mcp",
+    "package": "database-mcp",
+    "license": "unknown",
+    "categories": ["database"],
+    "permissions": ["database.read", "database.write"],
+    "maintenance": {
+      "activity": "low",
+      "releaseAgeDays": 420,
+      "stars": 4
+    },
+    "install": {
+      "method": "curl | sh",
+      "pinned": false
+    },
+    "docs": {
+      "quality": "low",
+      "schema": "low"
+    }
+  }
+]
