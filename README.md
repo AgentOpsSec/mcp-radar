@@ -1,5 +1,7 @@
 # MCP Radar
 
+![NPM Downloads](https://img.shields.io/npm/dw/%40agentopssec%2Fmcp-radar)
+
 **Trust scores for MCP servers.**
 
 MCP Radar is a public trust and discovery layer for MCP servers. It helps
